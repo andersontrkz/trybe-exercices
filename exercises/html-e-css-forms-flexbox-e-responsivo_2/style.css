@@ -1,0 +1,13 @@
+body {
+  max-width: 800px;
+  width: 100%;
+  margin: auto;
+}
+
+h1, p {
+  text-align: center;
+}
+
+div {
+  margin-top: 24px;
+}

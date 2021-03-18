@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução à bibliotecas</title>
+    <link href="node_modules/bulma/css/bulma.css" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <header class="form-header">
+      <h1 class="title">Formulário para cadastro de currículo</h1>
+      <p class="subtitle">Preencha os campos abaixo.</p>
+    </header>
+    <form id="cv-form">
+      <div class="field form-row">
+          <div class="control line-content">
+            <label for="name">Nome: </label>
+            <input class="input" type="text" name="name" id="name" maxlength="40" required>
+          </div>
+          <div class="control line-content">
+            <label for="email">Endereço de e-mail: </label>
+            <input class="input email-input" type="email" name="email" id="email" maxlength="50" required>
+          </div>
+          <div class="control line-content">
+            <label for="cpf-number">CPF: </label>
+            <input class="input" type="text" name="cpf" id="cpf-number" maxlength="11" required>
+          </div>
+          <div class="control line-content">
+            <label for="address">Endereço: </label>
+            <input class="input" type="text" name="address" id="address" maxlength="200" required>
+          </div>
+          <div class="control line-content">Tipo de imóvel:
+            <label class="radio" for="house">
+              <input id="house" type="radio" name="house-apartment" value="house" required>
+              Casa
+            </label>
+            <label class="radio" for="apartment">
+              <input id="apartment" type="radio" name="house-apartment" value="apartment" required>
+              Apartamento
+            </label>
+          </div>
+          <div class="control line-content">
+            <label for="city">Cidade: </label>
+            <input class="input" type="text" name="city" id="city" maxlength="200" required>
+          </div>
+          <div class="control select line-content">
+            <label for="state">Estado: </label>
+            <select name="state" id="state" value = "" required>
+
+            </select>
+          </div>
+          <div class="line-content">
+            <label for="cv-resume">Resumo do currículo: </label>
+            <textarea class="textarea" id="cv-resume" name="cv-resume" maxlength="1000" cols="100" rows="20" required></textarea>
+          </div>
+          <div class="line-content">
+            <label for="position">Cargo: </label>
+            <input class="input" type="text" name="position" id="position" maxlength="40" required >
+          </div>
+          <div class="line-content">
+            <label for="description">Descrição do cargo: </label>
+            <input class="input" type="text" id="description" name="description" required>
+          </div>
+          <div class="line-content">
+            <label for="start-date">Data de início: </label>
+            <input class="input" type="text" class="input-data" name="start-date" value="" required>
+          </div>
+          <div class="field is-grouped is-grouped-right">
+            <p class="control">
+              <button class="button is-light clear-button" type="button">Limpar</button>
+              <button class="button is-primary submit-button" type="button">Enviar</button>
+            </p>
+          </div>
+      </div>
+      </form>
+    <section class="form-data"></section>
+    <script src="script.js"></script>
+  </body>
+</html>
