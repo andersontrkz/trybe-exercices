@@ -4,7 +4,7 @@ Vamos avançar nossos conhecimentos e entender mais sobre Array e For .
 
 Você será capaz de:
 Manipular arrays (listas);
-Utilizar o comando for;
+Utilizar o comando for ;
 
 Por que isso é importante?
 A manipulação de Arrays estará presente em toda sua carreira como pessoa desenvolvedora. Você irá usar arrays frequentemente para armazenar os dados que achar necessário.
