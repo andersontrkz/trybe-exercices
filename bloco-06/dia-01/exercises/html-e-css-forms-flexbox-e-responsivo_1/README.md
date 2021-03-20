@@ -41,10 +41,10 @@ Verificar o formato da data dd/mm/aaaa .
 O dia deve ser > 0 e <= 31.
 O mês deve ser > 0 e <= 12.
 O ano não pode ser negativo.
-Caso alguma das condições for inválida no momento do envio do formulário, exibir mensagem de erro contextualizada.
+Caso alguma das condições seja inválida no momento do envio do formulário, exibir uma mensagem de erro contextualizada.
 Campo obrigatório
 Logo abaixo do formulário, crie um botão que:
-Chame uma função JavaScript e interrompa o fluxo automático do form utilizando o preventDefault() .
+Chame uma função JavaScript que interrompa o fluxo automático do form utilizando o preventDefault() .
 Execute as validações que foram pedidas ao longo da montagem do formulário.
 Monte uma <div> com o consolidado dos dados que foram inseridos no formulário.
 Crie um botão Limpar que limpa todos os campos do formulário e a <div> com seu currículo também.
