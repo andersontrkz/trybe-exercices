@@ -1,0 +1,67 @@
+.super-mario {
+  width: 300px;
+  left: 100px;
+  position: absolute;
+}
+
+.goomba {
+  width: 100px;
+  position: absolute;
+  top: 450px;
+  left: 360px;
+}
+
+.baloon {
+  width: 300px;
+  position: absolute;
+  left: 500px;
+  top: 50px;
+}
+
+.bowser {
+  width: 380px;
+  position: absolute;
+  top: 50px;
+  left: 800px;
+}
+
+p {
+  position: absolute;
+  left: 560px;
+  top: 100px;
+  z-index: 2;
+}
+
+li {
+  background-color: yellow;
+}
+
+.par {
+  color: green;
+}
+
+.primo{
+ text-transform: uppercase;
+}
+
+li em {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.azul {
+  color: blue;
+}
+
+.pink {
+  background-color: palevioletred;
+}
+
+a:hover {
+  color: red;
+}
+
+p:hover {
+  background-color: brown;
+  margin-top: 30px;
+}
